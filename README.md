@@ -51,3 +51,9 @@ includecontig is the list of contig to preform detection.(default: [], all conti
 eg: python LSnet.py call_sv ./deletion.h5 ./genotype.h5 ./datapath ./long_read.bam ./outvcfpath 10 [12,13,14,15,16,17,18,19,20,21,22]  
 ```　  
 
+##Tested data
+The data can be downloaded from:
+###HG002 longread
+```
+https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/PacBio_MtSinai_NIST/Baylor_NGMLR_bam_GRCh37/HG002_PB_70x_RG_HP10XtrioRTG.bam
+```
