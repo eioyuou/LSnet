@@ -4,20 +4,20 @@ An approach for detecting and genotyping deletions with a deeplearning network.
 ### Requirements
 * python 3.9, numpy, pandas, Matplotlib, TensorFlow 2.7, pysam,tensorflow_addons 0.17.1
 ### 1. Create a virtual environment  
-'''
+```
 #create
 conda create -n LSnet python=3.9
 #activate
 conda activate LSnet
 #deactivate
 conda deactivate
-'''
+```   
 ### 2. clone LSnet
 * After creating and activating the LSnet virtual environment, download LSnet from github:
-```　
+```　 
 git clone https://github.com/eioyuou/LSnet.git
 cd LSnet
-```　
+```　  
 ### 3. Install 
 ```　
 conda activate LSnet
