@@ -49,11 +49,28 @@ support is min support reads;
 includecontig is the list of contig to preform detection.(default: [], all contig are used)  
    
 eg: python LSnet.py call_sv ./deletion.h5 ./genotype.h5 ./datapath ./long_read.bam ./outvcfpath 10 [12,13,14,15,16,17,18,19,20,21,22]  
-```　  
+```  
+## Tested data 
+The data can be downloaded from:  
 
-##Tested data
-The data can be downloaded from:
-###HG002 longread
+### HG002 long_read data
 ```
 https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/PacBio_MtSinai_NIST/Baylor_NGMLR_bam_GRCh37/HG002_PB_70x_RG_HP10XtrioRTG.bam
 ```
+### HG002 short_read data
+```
+https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/PacBio_MtSinai_NIST/Baylor_NGMLR_bam_GRCh37/HG002_PB_70x_RG_HP10XtrioRTG.bam
+```   
+### HG002 ccs data
+```
+https://ftp.ncbi.nih.gov/giab/ftp/data/AshkenazimTrio/HG002_NA24385_son/PacBio_CCS_15kb/alignment/HG002.Sequel.15kb.pbmm2.hs37d5.whatshap.haplotag.RTG.10x.trio.bam
+```   
+### NA19240 long_read data
+```
+http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/working/20160905_smithm_pacbio_aligns/NA19240_bwamem_GRCh38DH_YRI_20160905_pacbio.bam
+```   
+### NA19240 short_read data
+```
+http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/data_collections/hgsv_sv_discovery/data/YRI/NA19240/high_cov_alignment/NA19240.alt_bwamem_GRCh38DH.20150715.YRI.high_coverage.cram
+```   
+
