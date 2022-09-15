@@ -1,7 +1,7 @@
 # LSnet
 An approach for detecting and genotyping deletions with a deeplearning network.
 ## Installation
-###Requirements
+### Requirements
 * python 3.9, numpy, pandas, Matplotlib, TensorFlow 2.7, pysam,tensorflow_addons 0.17.1
 ### 1. Create a virtual environment  
 '''
