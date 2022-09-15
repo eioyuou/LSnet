@@ -35,7 +35,8 @@ output_data_folder is a folder which is used to store evaluation data;
 max_work is the number of threads to use;  
 includecontig is the list of contig to preform detection.(default: [], all contig are used)  
    
-eg: python LSnet.py create_feature ./long_read.bam /short_read.bam ./outpath 5 [12,13,14,15,16,17,18,19,20,21,22]     
+eg: python LSnet.py create_feature ./long_read.bam /short_read.bam ./outpath 5 [12,13,14,15,16,17,18,19,20,21,22] 
+    python LSnet.py create_feature ./CCS.bam None ./outpath 5 [12,13,14,15,16,17,18,19,20,21,22]
 ``` 
 ### 2.Call deletion 
 ```　 
